@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Redressed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 3, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Redressed', cursive;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    width: 540px;
+    height: 350px;
+    background: rgb(12, 206, 255);
+    border-radius: 22px;
+    border: 5px solid #fff;
+}
+
+.best {
+    color: #FFF;
+    font-size: 26PX;
+    text-align: center;
+    padding: 33px;
+}
+
+.joke {
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+    margin-top: 54px;
+    max-width: 100%;
+    margin-bottom: 81px;
+}
+
+button {
+    padding: 7px 19px;
+    font-size: 22px;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 9px;
+    border: none;
+    transition: .4s ease-in-out;
+    font-family: 'Mulish', sans-serif;
+}
+
+button:hover {
+    background: black;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
