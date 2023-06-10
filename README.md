@@ -3,10 +3,6 @@
 
 This is a website that generates random jokes using an API. Users can visit the website and enjoy a good laugh by clicking a button to fetch a new joke each time.
 
-## Demo
-
-A live demo of the website can be found at [jokes-generator.com](https://www.jokes-generator.com).
-
 ## Features
 
 - Fetch random jokes from an API.
